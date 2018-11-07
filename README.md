@@ -44,7 +44,7 @@
   application = Cling(get_wsgi_application())
   ```
 ### 10. Rode o comando:
-  `$ pip freeze > requirements.txt`]
+  `$ pip freeze > requirements.txt`
 ### 11. Adicione em requirements.txt (caso não exista):
   ```
     psycopg2
