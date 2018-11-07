@@ -69,3 +69,10 @@
   $ git push heroku master
   ```
 ### 17. Pronto! Acesse seu site `https://nome_do_app.herokuapp.com/`
+
+### 18. Para interagir com o projeto django no heroku, rode os comandos com `heroku run` na frente. ex:
+  ```
+  $ heroku run python manage.py createsuperuser
+  $ heroku run python manage.py makemigrations
+  $ heroku run python manage.py migrate
+  ```
