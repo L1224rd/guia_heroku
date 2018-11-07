@@ -7,7 +7,7 @@
   - `$ pip install dj-static`
 ### 3. Crie um arquivo no root com nome `.env`
 ### 4. Copie a `SECRET_KEY` do `settings.py` e coloque no `.env` assim:
-  - `SECRET_KEY=29vduklwdnsj_%gwdxfew54722!pq%@5%fe!d5(s3!rsg8mm#_a!`
+  - `SECRET_KEY=COLOQUE_AQUI_A_SECRET_KEY_DO_SEU_PROJETO`
 ### 5. Em `settings.py` adicione isso no começo do arquivo:
   ```
   from decouple import config
